@@ -1,4 +1,5 @@
-﻿using Apical.Web.Infrastructure.JqueryDataTable.Core;
+﻿
+using Datatables.AspNetCore.Core;
 
 using Microsoft.AspNetCore.Mvc;
 

@@ -2,13 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <PackageId>Apical.Datatables.AspNetCore</PackageId>
+    <PackageId>Apical.DataTables.AspNet.AspNetCore</PackageId>
     <Authors>emon.arafat</Authors>
-    <Product>Apical.Datatables.AspNetCore</Product>
+    <Product>Apical.DataTables.AspNet.AspNetCore</Product>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReleaseNotes>Fork of https://github.com/ALMMa/datatables.aspnet
 
 and Convert it to use with System.Text,Json</PackageReleaseNotes>
+    <Description>AspNetCore implementation for DataTables.AspNet.</Description>
+    <PackageIcon>favicon-32x32.png</PackageIcon>
+    <RepositoryUrl>https://github.com/emonarafat/Apical.DataTables.AspNet.AspNetCore.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/emonarafat/Apical.DataTables.AspNet.AspNetCore.git</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Jquery.DataTable, ASP.NET Core</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,6 +22,13 @@ and Convert it to use with System.Text,Json</PackageReleaseNotes>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.7" />
     <PackageReference Include="System.Text.Json" Version="4.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="favicon-32x32.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
