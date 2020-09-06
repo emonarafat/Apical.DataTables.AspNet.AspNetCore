@@ -1,10 +1,12 @@
 # Apical.DataTables.AspNet.AspNetCore
 AspNetCore implementation for DataTables.AspNet.
-Fork from [datatables.aspnet](https://github.com/ALMMa/datatables.aspnet)
+Fork from [datatables.aspnet](https://github.com/ALMMa/datatables.aspnet).
+Removes Newtonsoft.Json.Net  dependency and use  System.Text.Json instead.
 
-- [Apical.DataTables.AspNet.AspNetCore](https://www.nuget.org/packages/Apical.DataTables.AspNet.AspNetCore) with support for AspNetCore, dependency injection and automatic binders
+- [Apical.DataTables.AspNet.AspNetCore](https://www.nuget.org/packages/Apical.DataTables.AspNet.AspNetCore) with support for AspNetCore, 
+dependency injection and automatic binders
 
-Basic Integration
+## Basic Integration
 ```csharp
         public void ConfigureServices(IServiceCollection services)
         {
@@ -14,7 +16,7 @@ Basic Integration
 			services.RegisterDataTables();
         }
 ```
-Controller Action
+## Controller Action
 ```csharp
  /// <summary>
         /// This is your data method.
