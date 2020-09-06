@@ -32,7 +32,7 @@ dependency injection and automatic binders
         /// <returns>
         /// Return data here, with a json-compatible result.
         /// </returns>
-        public IActionResult PageData(Core.IDataTablesRequest request)
+        public IActionResult PageData(IDataTablesRequest request)
         {
             // Nothing important here. Just creates some mock data.
             var data = Models.SampleEntity.GetSampleData();
